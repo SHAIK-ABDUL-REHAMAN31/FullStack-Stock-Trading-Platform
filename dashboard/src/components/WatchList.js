@@ -148,3 +148,7 @@ const WatchListActions = ({ uid }) => {
     </span>
   );
 };
+
+//  {/* <Link to={"/"} className="btn">
+//           Get started
+//         </Link> */}
