@@ -14,7 +14,7 @@ const Dashboard = () => {
         navigate("/login");
       }
       const { data } = await axios.post(
-        "http://localhost:3002",
+        "https://fullstack-stock-trading-platform.onrender.com",
         {},
         { withCredentials: true }
       );
