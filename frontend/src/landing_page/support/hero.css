@@ -1,0 +1,23 @@
+.hero-sections h4 {
+  font-size: 1.15rem;
+  padding-bottom: 1rem;
+}
+.hero-sections h4 > a {
+  text-decoration: none;
+  color: black;
+}
+.hero-sections h4 > a:hover {
+  color: rgb(77, 171, 234);
+}
+.main-container {
+  padding: 3rem 8rem;
+}
+.hero-sections span > a {
+  text-decoration: none;
+}
+.hero-sections span {
+  line-height: 2.5;
+}
+.hero-sections span > a:hover {
+  color: #000;
+}

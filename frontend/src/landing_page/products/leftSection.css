@@ -1,0 +1,26 @@
+.kite-img p {
+  font-size: 1.1rem;
+  padding-left: 5rem;
+  padding-top: 2rem;
+}
+.kite-img h1 {
+  padding-left: 5rem;
+  opacity: 0.9;
+  padding-top: 2rem;
+  font-size: 2.2rem;
+}
+
+.kite-links a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding-left: 5rem;
+}
+.kite-links a:hover {
+  color: #000;
+}
+.kite-store-links a > img {
+  padding-left: 5rem;
+}
+.sec-img img:hover {
+  opacity: 0.8;
+}

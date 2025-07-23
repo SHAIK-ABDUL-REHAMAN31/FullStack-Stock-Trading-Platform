@@ -1,0 +1,16 @@
+.products-hero h1 {
+  opacity: 0.85;
+  font-size: 2.8rem;
+}
+.p1 {
+  font-size: 1.4rem;
+}
+.p2 a {
+  text-decoration: none;
+}
+.p2 a:hover {
+  color: #000;
+}
+.p2 {
+  font-size: 1.1rem;
+}
