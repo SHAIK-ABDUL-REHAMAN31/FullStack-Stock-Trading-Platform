@@ -23,9 +23,10 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "http://localhost:3002",
-      "http://localhost:3000",
-      "http://localhost:3001",
+      "https://fullstack-stock-trading-platform.onrender.com/",
+      "https://dashboard.onrender.com/dashboard/signup",
+      "https://dashboard.onrender.com/dashboard/login",
+      "https://dashboard.onrender.com/dashboard/dashboard",
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,

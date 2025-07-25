@@ -42,7 +42,7 @@ const Signup = () => {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-          window.location.href = "https://dashboard.onrender.com";
+          window.location.href = "https://dashboard.onrender.com/dashboard";
         }, 1000);
       } else {
         handleError(message);

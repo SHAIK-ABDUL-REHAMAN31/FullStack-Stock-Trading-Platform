@@ -31,7 +31,7 @@ const Login = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://fullstack-stock-trading-platform.onrender.com",
+        "https://fullstack-stock-trading-platform.onrender.com/login",
         {
           ...inputValue,
         },
@@ -42,7 +42,8 @@ const Login = () => {
       if (success) {
         handleSuccess(message);
         setTimeout(() => {
-          window.location.href = "https://your-dashboard-name.onrender.com";
+          window.location.href =
+            "https://your-dashboard-name.onrender.com/dashboard";
         }, 1000);
       } else {
         handleError(message);

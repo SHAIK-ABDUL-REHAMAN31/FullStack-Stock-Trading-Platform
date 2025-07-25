@@ -24,7 +24,9 @@ const Dashboard = () => {
         ? toast(`Hello ${user}`, {
             position: "top-right",
           })
-        : (removeCookie("token"), navigate("/login"));
+        : (removeCookie("token"),
+          (window.location.href =
+            "https://dashboard.onrender.com/dashboard/signup"));
     };
     verifyCookie();
   }, [cookies, navigate, removeCookie]);
