@@ -15,7 +15,8 @@ const { OrdersMOdel } = require("./model/OrdersModel.js");
 const { PositionsModel } = require("./model/PositionModel");
 const { json } = require("body-parser");
 
-const PORT = process.env.PORT || 3002;
+const PORT =
+  process.env.PORT || "https://fullstack-stock-trading-platform.onrender.com/";
 const uri = process.env.MONGO_URL;
 
 const app = express();
